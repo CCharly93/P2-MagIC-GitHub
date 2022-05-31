@@ -14,15 +14,17 @@ public class UserRepository {
     }
 
     public List<User> getUsers() {
-        // TODO: A modifier
-        return null;
+        // DONE
+        return apiService.getUsers();
     }
 
     public void generateRandomUser() {
-        // TODO: A modifier
+        // DONE
+        apiService.generateRandomUser();
     }
 
     public void deleteUser(User user) {
-        // TODO: A modifier
+        // DONE
+        apiService.deleteUser(user);
     }
 }
